@@ -1,0 +1,31 @@
+"Roll Paratha" 250 savory desi
+"Biryani" 280 savory desi
+"Samosa Chat Small" 110 savory desi
+"Samosa Chat Large" 160 savory desi
+"Channa Chat" 150 savory desi
+"Tikka Boti 5 piece" 350 savory desi
+"Seekh Kebab 4 piece" 350 savory desi
+"Fries" 130 savory fastfood
+"Anda Shami" 180 savory fastfood
+"Shawarma" 240 savory fastfood
+"Zinger Burger" 300 savory fastfood
+"Zinger Roll Paratha" 320 savory fastfood
+"C2 Special Pizza Small" 450 savory fastfood
+"C2 Special Pizza Medium" 870 savory fastfood
+"C2 Special Pizza Large" 1400 savory fastfood
+"Chai" 80 drink hot
+"Green Tea" 50 drink hot
+"Hot Chocolate" 240 drink hot
+"Coffee" 150 drink hot
+"Apple Shake" 200 drink cold
+"Banana Shake" 200 drink cold
+"Oreo Shake" 200 drink cold
+"Mango Shake (Seasonal)" 200 drink cold
+"Date Shake" 200 drink cold
+"Apple Juice" 280 drink cold
+"Donut" 150 dessert 
+"Icing Cupcake" 170 dessert
+"Pastry" 230 dessert
+"Cream Roll" 160 dessert
+"Brownie" 220 dessert
+"Cookie" 180 dessert

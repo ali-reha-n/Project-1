@@ -1,0 +1,33 @@
+"Roll Paratha" 250 savory desi
+"Aloo Cheese Paratha" 200 savory desi
+"Chicken Cheese Paratha" 300 savory desi
+"Pasta (Small)" 600 savory fastfood
+"Zinger Burger" 380 savory fastfood
+"Small Fries" 130 savory fastfood
+"Large Fries" 240 savory fastfood
+"Ice Cream Shake" 270 drink cold
+"Apple Milk Shake" 200 drink cold
+"Banana Milk Shake" 200 drink cold
+"Apple+Banana Milk Shake" 200 drink cold
+"Oreo Milk Shake" 200 drink cold
+"Oreo+Banana Milk Shake" 220 drink cold
+"Banana+Dates Milk Shake" 220 drink cold
+"Chocolate Milk Shake" 210 drink cold
+"Cold Coffee" 210 drink cold
+"Carrot Juice" 150 drink cold
+"Lemon Soda" 150 drink cold
+"Beetroot Carrot Juice" 200 drink cold
+"Grapefruit Juice" 200 drink cold
+"Orange Carrot Juice" 200 drink cold
+"Apple Juice" 280 drink cold
+"Orange Juice" 200 drink cold
+"Apple Orange Juice" 250 drink cold
+"Orange Beetroot Carrot Juice" 250 drink cold
+"Apple Beetroot Carrot Juice" 250 drink cold
+"Chai" 80 drink hot
+"Gur wali Chai" 100 drink hot
+"Coffee" 200 drink hot
+"Hot Chocolate" 240 drink hot
+"Ice Cream Small" 80 dessert
+"Ice Cream Medium" 150 dessert
+"Ice Cream Large" 200 dessert

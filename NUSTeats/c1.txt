@@ -1,0 +1,58 @@
+"Apple Shake" 200 drink cold
+"Banana Shake" 200 drink cold
+"Apple Banana Shake" 200 drink cold
+"Oreo Shake" 200 drink cold
+"Banana Oreo Shake" 210 drink cold
+"Date Shake" 220 drink cold
+"Milo Shake" 210 drink cold
+"Cold Coffee Shake" 210 drink cold
+"Chocolate Shake" 210 drink cold
+"Mosambi Juice" 200 drink cold
+"Grapefruit Juice" 200 drink cold
+"Apple Juice" 280 drink cold
+"Pomegranate Juice" 400 drink cold
+"Carrot Juice" 150 drink cold
+"Ice Tea" 150 drink cold
+"Strawberry Shake/Juice" 200 drink cold
+"Mint Margarita" 150 drink cold
+"Orange Juice" 200 drink cold
+"Phalsa Juice" 200 drink cold
+"Coffee" 150 drink hot
+"Chai Small" 80 drink hot
+"Chai Large" 100 drink hot
+"Hot Chocolate" 240 drink hot 
+"Brownie" 200 dessert
+"Fudge Brownie" 230 dessert
+"Choco Caramel Brownie" 230 dessert
+"Pastry" 160 dessert
+"Pineapple Pastry" 220 dessert
+"KitKat Pastry" 220 dessert
+"Double Chocolate Pastry" 220 dessert
+"KitKat/Red Velvet Cake Slice" 250 dessert
+"Cream roll" 160 dessert
+"Chocolate Pop" 60 dessert
+"Chocolate Mouse" 220 dessert
+"Zinger Burger" 320 savory fastfood
+"Zinger Roll" 320 savory fastfood
+"Chicken Shawarma" 240 savory fastfood
+"Fries Regular" 130 savory fastfood
+"Fries Large" 240 savory fastfood
+"Loaded Fries Small" 350 savory fastfood
+"Loaded Fries Large" 500 savory fastfood
+"Anda Shami" 180 savory fastfood
+"Small Pizza" 430 savory fastfood
+"Large Pizza" 1200 savory fastfood
+"Medium Pizza" 830 savory fastfood
+"Extra Large Pizza" 1600 savory fastfood
+"Pulao" 280 savory desi
+"Biryani" 280 savory desi
+"Aloo Shami" 50 savory desi
+"Roti" 25 savory desi
+"Kebab Paratha Roll" 200 savory desi
+"Chicken Tikka Paratha Roll" 250 savory desi
+"Samosa" 50 savory desi
+"Roll" 70 savory desi
+"Samosa Chat Small" 110 savory desi
+"Samosa Chat Large" 180 savory desi
+"Channa Chat" 160 savory desi
+"Dahi Bhallay" 160 savory desi
