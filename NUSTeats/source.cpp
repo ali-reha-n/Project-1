@@ -1,5 +1,7 @@
 #include <iostream>
 #include <windows.h>
+#include <fstream>
+#include <string> 
 using namespace std;
 
 struct filters {
@@ -255,25 +257,213 @@ void randomizerScreen(int budget) {
 
 // ---------- Screen 3 (Personalized Results) ----------
 
-void personalizedResults(int budget) {
+void personalizedResults(int budget , filters& filter) {
+    fstream cafe;
+    string line,price;
+
     printNUSTEats();
 
     cout << "Personalized Recommendations\n\n";
-
-    // Placeholder (my partner will add filtering logic)
-    string cafe = "Retro";
-    string item = "Chicken Shawarma";
-    int price = 350;
-
-    cout << "Cafe  : " << cafe << endl;
-    cout << "Item  : " << item << endl;
-    cout << "Price : PKR " << price << endl;
-
-    if (price > budget) {
-        setColor(12, 7); // Red warning
-        cout << "\nWARNING: This item exceeds your budget!\n";
-        setColor(0, 7);
+    cafe.open("c1.txt", ios::in);
+    if (cafe.is_open()) {
+        string line;
+        while (getline(cafe , line)) {
+            for (int i = 0; i < line.size(); i++) {
+                if (isdigit(line[i])) {
+                    price += line[i];
+                }
+            }
+            if (stoi(price) <= budget) {
+                if (filter.fastfood == 1) {
+                    if (line.find("fastfood") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+                if (filter.desi == 1) {
+                    if (line.find("desi") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+                if (filter.hotdrinks == 1) {
+                    if (line.find("drink hot") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+                if (filter.cooldrinks == 1) {
+                    if (line.find("drink cold") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+                if (filter.dessert == 1) {
+                    if (line.find("dessert") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+            }
+            price.clear();
+        }
+        cafe.close();
     }
+
+    cafe.open("c2.txt", ios::in);
+    if (cafe.is_open()) {
+        string line;
+        while (getline(cafe, line)) {
+            for (int i = 0; i < line.size(); i++) {
+                if (isdigit(line[i])) {
+                    price += line[i];
+                }
+            }
+            if (stoi(price) <= budget) {
+                if (filter.fastfood == 1) {
+                    if (line.find("fastfood") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+                if (filter.desi == 1) {
+                    if (line.find("desi") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+                if (filter.hotdrinks == 1) {
+                    if (line.find("drink hot") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+                if (filter.cooldrinks == 1) {
+                    if (line.find("drink cold") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+                if (filter.dessert == 1) {
+                    if (line.find("dessert") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+            }
+            price.clear();
+        }
+        cafe.close();
+    }
+
+    cafe.open("c3.txt", ios::in);
+    if (cafe.is_open()) {
+        string line;
+        while (getline(cafe, line)) {
+            for (int i = 0; i < line.size(); i++) {
+                if (isdigit(line[i])) {
+                    price += line[i];
+                }
+            }
+            if (stoi(price) <= budget) {
+                if (filter.fastfood == 1) {
+                    if (line.find("fastfood") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+                if (filter.desi == 1) {
+                    if (line.find("desi") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+                if (filter.hotdrinks == 1) {
+                    if (line.find("drink hot") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+                if (filter.cooldrinks == 1) {
+                    if (line.find("drink cold") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+                if (filter.dessert == 1) {
+                    if (line.find("dessert") != string::npos) {
+                        cout << "Name: ";
+                        for (int i = 1; line[i] != '"'; i++) {
+                            cout << line[i];
+                        }
+                        cout << endl;
+                        cout << "Price: " << price << endl;
+                    }
+                }
+            }
+            price.clear();
+        }
+        cafe.close();
+    }
+
+
+    
 }
 
 // ---------- Main Function ----------
@@ -294,7 +484,7 @@ int main() {
     if (choice == 1) {
         personalizedOptions(foodType, cafeChoice, filter);
         clearScreen();
-        personalizedResults(budget);
+        personalizedResults(budget , filter);
     }
     else if (choice == 2) {
         randomizerScreen(budget);
